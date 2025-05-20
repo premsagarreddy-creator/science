@@ -1,5 +1,5 @@
 """
-Science Quiz Module
+ssssssssScience Quiz Module
 Includes a multiple-choice science quiz game with scoring and replay.
 """
 
