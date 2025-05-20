@@ -51,10 +51,11 @@ Ask a multiple-choice question, check the user's answer, and return whether it's
 
 def question1():
     return ask_question(
-        "What is H2O commonly known as?",
-        {'a': 'Hydrogen Peroxide', 'b': 'Salt', 'c': 'Water', 'd': 'Oxygen'},
+        "Which gas is most abundant in the Earth's atmosphere?",
+        {'a': 'Oxygen', 'b': 'Carbon Dioxide', 'c': 'Nitrogen', 'd': 'Hydrogen'},
         'c'
     )
+
 
 def question2():
     return ask_question(
