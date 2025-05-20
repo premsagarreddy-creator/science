@@ -156,4 +156,6 @@ def ask_replay():
         run_science_quiz()
     else:
         print("Thanks for playing!")
+if __name__ == "__main__":
+    run_science_quiz()
 
