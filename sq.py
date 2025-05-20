@@ -41,4 +41,10 @@ def question2():
         {'a': 'Root', 'b': 'Stem', 'c': 'Leaf', 'd': 'Flower'},
         'c'
     )
+def question3():
+    return ask_question(
+        "Which planet is known as the Red Planet?",
+        {'a': 'Earth', 'b': 'Mars', 'c': 'Jupiter', 'd': 'Venus'},
+        'b'
+    )
 
