@@ -53,4 +53,10 @@ def question4():
         {'a': 'Nitrogen', 'b': 'Hydrogen', 'c': 'Oxygen', 'd': 'Carbon Dioxide'},
         'c'
     )
+def question5():
+    return ask_question(
+        "What force pulls objects toward the Earth?",
+        {'a': 'Magnetism', 'b': 'Friction', 'c': 'Electricity', 'd': 'Gravity'},
+        'd'
+    )
 
