@@ -8,4 +8,6 @@ GREEN = '\033[92m'
 YELLOW = '\033[93m'
 CYAN = '\033[96m'
 RESET = '\033[0m'
+def print_banner():
+    print(CYAN + "\n📘 Welcome to the Science Quiz! 📘\n" + RESET)
 
