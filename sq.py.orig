@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+dddef science_quiz():
+    """Main function placeholder for Science Quiz."""
+    pass
+def print_banner():
+    print("Welcome to the Science Quiz!")
+=======
 """
 Science Quiz Module
 Includes a multiple-choice science quiz game with scoring and replay.
@@ -5,7 +12,8 @@ Includes a multiple-choice science quiz game with scoring and replay.
 
 import time
 
-# Adding colors for styling
+# Color constants for styling
+>>>>>>> betterment
 RED = '\033[91m'
 GREEN = '\033[92m'
 YELLOW = '\033[93m'
