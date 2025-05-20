@@ -47,4 +47,10 @@ def question3():
         {'a': 'Earth', 'b': 'Mars', 'c': 'Jupiter', 'd': 'Venus'},
         'b'
     )
+def question4():
+    return ask_question(
+        "What gas do humans need to breathe?",
+        {'a': 'Nitrogen', 'b': 'Hydrogen', 'c': 'Oxygen', 'd': 'Carbon Dioxide'},
+        'c'
+    )
 
