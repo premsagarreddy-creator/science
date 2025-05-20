@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-dddef science_quiz():
-    """Main function placeholder for Science Quiz."""
-    pass
-def print_banner():
-    print("Welcome to the Science Quiz!")
-=======
 """
 Science Quiz Module
 Includes a multiple-choice science quiz game with scoring and replay.
@@ -12,7 +5,11 @@ Includes a multiple-choice science quiz game with scoring and replay.
 
 import time
 
+<<<<<<< HEAD
 # Color constants for styling
+>>>>>>> betterment
+=======
+# Adding colors for styling
 >>>>>>> betterment
 RED = '\033[91m'
 GREEN = '\033[92m'
@@ -44,8 +41,9 @@ def get_valid_input():
 
 def ask_question(question, options, correct):
     """
-    Display a question and options, validate input, and return True if correct.
-    """
+Ask a multiple-choice question, check the user's answer, and return whether it's correct.
+"""
+
     print_question(question, options)
     answer = get_valid_input()
     if answer == correct:
@@ -116,7 +114,7 @@ def ask_replay():
         print("Thanks for playing!")
 
 def run_science_quiz():
-    """Run the full science quiz with questions, scoring, and replay."""
+    """Execute the complete science quiz, including questions, score calculation, and replay option."""
     print_banner()
     loading()
     score = 0
