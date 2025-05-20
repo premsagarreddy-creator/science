@@ -35,4 +35,10 @@ def question1():
         {'a': 'Hydrogen Peroxide', 'b': 'Salt', 'c': 'Water', 'd': 'Oxygen'},
         'c'
     )
+def question2():
+    return ask_question(
+        "Which part of the plant conducts photosynthesis?",
+        {'a': 'Root', 'b': 'Stem', 'c': 'Leaf', 'd': 'Flower'},
+        'c'
+    )
 
