@@ -99,4 +99,10 @@ def run_science_quiz():
         if q():
             score += 1
     show_score(score, len(questions))
+def ask_replay():
+    answer = input("Do you want to play again? (y/n): ").lower()
+    if answer == 'y':
+        run_science_quiz()
+    else:
+        print("Thanks for playing!")
 
