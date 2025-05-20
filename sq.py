@@ -67,4 +67,12 @@ def run_science_quiz():
         if q():
             score += 1
     print(f"You scored {score}/{len(questions)}!")
+import time
+
+def loading():
+    print("Loading questions", end="")
+    for _ in range(3):
+        print(".", end="", flush=True)
+        time.sleep(0.5)
+    print("\n")
 
