@@ -143,4 +143,17 @@ def safe_input(prompt):
     except KeyboardInterrupt:
         print("\nQuiz interrupted. Exiting.")
         exit()
+def get_valid_input():
+    while True:
+        ans = safe_input("Enter your answer (a/b/c/d): ").lower()
+        if ans in ['a', 'b', 'c', 'd']:
+            return ans
+        print(RED + "Invalid input, try again." + RESET)
+
+def ask_replay():
+    answer = safe_input("Do you want to play again? (y/n): ").lower()
+    if answer == 'y':
+        run_science_quiz()
+    else:
+        print("Thanks for playing!")
 
