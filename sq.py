@@ -13,7 +13,7 @@ YELLOW = '\033[93m'
 CYAN = '\033[96m'
 RESET = '\033[0m'
 
-definition print_banner(): #Displays the welcome banner for the quiz with styled color and emoji.
+def print_banner(): #Displays the welcome banner for the quiz with styled color and emoji.
     print(CYAN + "\n📘 Welcome to the Science Quiz! 📘\n" + RESET)
 
 def print_question(q, options): #Prints a multiple-choice question and its options in a formatted, colored style.
