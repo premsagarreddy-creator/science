@@ -60,3 +60,11 @@ def question5():
         'd'
     )
 questions = [question1, question2, question3, question4, question5]
+def run_science_quiz():
+    print_banner()
+    score = 0
+    for q in questions:
+        if q():
+            score += 1
+    print(f"You scored {score}/{len(questions)}!")
+
