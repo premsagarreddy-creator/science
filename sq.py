@@ -1,9 +1,9 @@
 """
-ssssssssScience Quiz Module
-iiiiiIncludes a multiple-choice science quiz game with scoring and replay.
+Science Quiz Module
+Includes a multiple-choice science quiz game with scoring and replay.
 """
 
-iiiiiiiimport time #used for timer in the quiz
+import time #used for timer in the quiz
 
 # Color constants for styling
 # Adding colors for styling
