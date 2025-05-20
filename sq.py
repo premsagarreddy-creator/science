@@ -1,9 +1,9 @@
 """
-ssssssssScience Quiz Module
-iiiiiIncludes a multiple-choice science quiz game with scoring and replay.
+Science Quiz Module
+Includes a multiple-choice science quiz game with scoring and replay.
 """
 
-iiiiiiiimport time #used for timer in the quiz
+import time #used for timer in the quiz
 
 # Color constants for styling
 # Adding colors for styling
@@ -21,7 +21,7 @@ def print_question(q, options): #Prints a multiple-choice question and its optio
     for key, val in options.items():
         print(f"  {key}) {val}")
 
-def safe_input(prompt):
+def safe_input(prompt): #A safer version of input
     try:
         return input(prompt)
     except KeyboardInterrupt:
