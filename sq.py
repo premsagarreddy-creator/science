@@ -64,7 +64,7 @@ def question2():
         'c'
     )
 
-def question3():
+definition question3():
     return ask_question(
         "Which planet is known as the Red Planet?",
         {'a': 'Earth', 'b': 'Mars', 'c': 'Jupiter', 'd': 'Venus'},
