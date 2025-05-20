@@ -137,4 +137,10 @@ def ask_question(question, options, correct):
     else:
         print(RED + f"Wrong! Correct answer is '{correct}'.\n" + RESET)
         return False
+def safe_input(prompt):
+    try:
+        return input(prompt)
+    except KeyboardInterrupt:
+        print("\nQuiz interrupted. Exiting.")
+        exit()
 
