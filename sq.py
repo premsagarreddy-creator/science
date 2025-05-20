@@ -36,8 +36,9 @@ def get_valid_input():
 
 def ask_question(question, options, correct):
     """
-    Display a question and options, validate input, and return True if correct.
-    """
+Ask a multiple-choice question, check the user's answer, and return whether it's correct.
+"""
+
     print_question(question, options)
     answer = get_valid_input()
     if answer == correct:
