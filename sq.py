@@ -109,7 +109,7 @@ def ask_replay():
         print("Thanks for playing!")
 
 def run_science_quiz():
-    """Run the full science quiz with questions, scoring, and replay."""
+    """Execute the complete science quiz, including questions, score calculation, and replay option."""
     print_banner()
     loading()
     score = 0
