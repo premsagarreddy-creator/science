@@ -105,4 +105,13 @@ def ask_replay():
         run_science_quiz()
     else:
         print("Thanks for playing!")
+def run_science_quiz():
+    print_banner()
+    loading()
+    score = 0
+    for q in questions:
+        if q():
+            score += 1
+    show_score(score, len(questions))
+    ask_replay()
 
