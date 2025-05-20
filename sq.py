@@ -29,4 +29,10 @@ def ask_question(question, options, correct):
     else:
         print(RED + f"Wrong! Correct answer is '{correct}'.\n" + RESET)
         return False
+def question1():
+    return ask_question(
+        "What is H2O commonly known as?",
+        {'a': 'Hydrogen Peroxide', 'b': 'Salt', 'c': 'Water', 'd': 'Oxygen'},
+        'c'
+    )
 
