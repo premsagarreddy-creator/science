@@ -3,7 +3,7 @@ ssssssssScience Quiz Module
 iiiiiIncludes a multiple-choice science quiz game with scoring and replay.
 """
 
-import time #used for timer in the quiz
+iiiiiiiimport time #used for timer in the quiz
 
 # Color constants for styling
 # Adding colors for styling
