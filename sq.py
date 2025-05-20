@@ -20,4 +20,13 @@ def get_valid_input():
         if ans in ['a', 'b', 'c', 'd']:
             return ans
         print(RED + "Invalid input, try again." + RESET)
+def ask_question(question, options, correct):
+    print_question(question, options)
+    answer = get_valid_input()
+    if answer == correct:
+        print(GREEN + "Correct!\n" + RESET)
+        return True
+    else:
+        print(RED + f"Wrong! Correct answer is '{correct}'.\n" + RESET)
+        return False
 
