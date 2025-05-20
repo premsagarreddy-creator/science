@@ -83,3 +83,12 @@ def run_science_quiz():
         if q():
             score += 1
     print(f"You scored {score}/{len(questions)}!")
+def show_score(score, total):
+    print(f"\nYou scored {score}/{total}!")
+    if score == total:
+        print("🏆 Excellent! Perfect score!")
+    elif score >= total * 0.6:
+        print("👍 Good job!")
+    else:
+        print("📘 Keep learning!")
+
