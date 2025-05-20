@@ -3,7 +3,7 @@ Science Quiz Module
 Includes a multiple-choice science quiz game with scoring and replay.
 """
 
-import time
+import time #used for timer in the quiz
 
 # Color constants for styling
 # Adding colors for styling
@@ -13,10 +13,10 @@ YELLOW = '\033[93m'
 CYAN = '\033[96m'
 RESET = '\033[0m'
 
-def print_banner():
+def print_banner(): #Displays the welcome banner for the quiz with styled color and emoji.
     print(CYAN + "\n📘 Welcome to the Science Quiz! 📘\n" + RESET)
 
-def print_question(q, options):
+def print_question(q, options): #Prints a multiple-choice question and its options in a formatted, colored style.
     print(YELLOW + q + RESET)
     for key, val in options.items():
         print(f"  {key}) {val}")
