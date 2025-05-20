@@ -59,4 +59,4 @@ def question5():
         {'a': 'Magnetism', 'b': 'Friction', 'c': 'Electricity', 'd': 'Gravity'},
         'd'
     )
-
+questions = [question1, question2, question3, question4, question5]
