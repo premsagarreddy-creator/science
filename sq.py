@@ -3,7 +3,7 @@ Science Quiz Module
 Includes a multiple-choice science quiz game with scoring and replay.
 """
 
-import time
+import time(4th dimension)
 
 # Color constants for styling
 # Adding colors for styling
