@@ -7,7 +7,7 @@ import time #used for timer in the quiz
 
 # Color constants for styling
 # Adding colors for styling
-RED = '\033[91m'
+colorRED = '\033[91m'
 GREEN = '\033[92m'
 YELLOW = '\033[93m'
 CYAN = '\033[96m'
