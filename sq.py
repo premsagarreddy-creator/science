@@ -1,6 +1,6 @@
 """
 ssssssssScience Quiz Module
-Includes a multiple-choice science quiz game with scoring and replay.
+iiiiiIncludes a multiple-choice science quiz game with scoring and replay.
 """
 
 import time #used for timer in the quiz
