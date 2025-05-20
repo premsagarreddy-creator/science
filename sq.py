@@ -15,7 +15,7 @@ RESET = '\033[0m'
 def print_banner(): #Displays the welcome banner for the quiz with styled color and emoji.
     print(CYAN + "\n📘 Welcome to the Science Quiz! 📘\n" + RESET)
 
-def print_question(q, options):
+def print_question(q, options): #Prints a multiple-choice question and its options in a formatted, colored style.
     print(YELLOW + q + RESET)
     for key, val in options.items():
         print(f"  {key}) {val}")
