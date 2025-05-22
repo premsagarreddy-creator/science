@@ -49,7 +49,7 @@ Ask a multiple-choice question, check the user's answer, and return whether it's
         print(RED + f"Wrong! Correct answer is '{correct}'.\n" + RESET)
         return False
 
-def question1():
+def question_number_1():
     return ask_question(
         "Which gas is most abundant in the Earth's atmosphere?",
         {'a': 'Oxygen', 'b': 'Carbon Dioxide', 'c': 'Nitrogen', 'd': 'Hydrogen'},
@@ -64,7 +64,7 @@ def question2():
         'c'
     )
 
-def question3():
+definition question3():
     return ask_question(
         "Which planet is known as the Red Planet?",
         {'a': 'Earth', 'b': 'Mars', 'c': 'Jupiter', 'd': 'Venus'},
