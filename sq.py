@@ -1,27 +1,27 @@
 """
-Science Quiz Module
+ssssssssScience Quiz Module
 Includes a multiple-choice science quiz game with scoring and replay.
 """
 
-import time(4th dimension)
+import time #used for timer in the quiz
 
 # Color constants for styling
 # Adding colors for styling
 RED = '\033[91m'
 GREEN = '\033[92m'
 YELLOW = '\033[93m'
-CYAN = '\033[96m'
+PURPLE = '\033[96m'
 RESET = '\033[0m'
 
-def print_banner():
+def print_banner(): #Displays the welcome banner for the quiz with styled color and emoji.
     print(CYAN + "\n📘 Welcome to the Science Quiz! 📘\n" + RESET)
 
-def print_question(q, options):
+def print_question(q, options): #Prints a multiple-choice question and its options in a formatted, colored style.
     print(YELLOW + q + RESET)
     for key, val in options.items():
         print(f"  {key}) {val}")
 
-def safe_input(prompt):
+def safe_input(prompt): #A safer version of input
     try:
         return input(prompt)
     except KeyboardInterrupt:
@@ -51,10 +51,11 @@ Ask a multiple-choice question, check the user's answer, and return whether it's
 
 def question1():
     return ask_question(
-        "What is H2O commonly known as?",
-        {'a': 'Hydrogen Peroxide', 'b': 'Salt', 'c': 'Water', 'd': 'Oxygen'},
+        "Which gas is most abundant in the Earth's atmosphere?",
+        {'a': 'Oxygen', 'b': 'Carbon Dioxide', 'c': 'Nitrogen', 'd': 'Hydrogen'},
         'c'
     )
+
 
 def question2():
     return ask_question(
